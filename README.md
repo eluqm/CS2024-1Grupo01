@@ -1,5 +1,5 @@
 # CS2024-1Grupo01
-
+[![logo-de-ambiente.png](https://i.postimg.cc/tJB8HcgM/logo-de-ambiente.png)](https://postimg.cc/CnfcGmkG)
 # TECNOLOGÍAS USADAS
 
 - **PHP**
