@@ -94,3 +94,11 @@ Descripción del patrón MVC y cómo se aplica en tu proyecto.
 
 ## Modelo Entidad Relación
 [![modelo-entidad-relaci-n.png](https://i.postimg.cc/T1c1JVQB/modelo-entidad-relaci-n.png)](https://postimg.cc/K3RmZg65)
+
+
+# MOCKUPS (ADMINISTRADOR)
+## INICIO DE SESIÓN
+[![INICIO-DE-SESION-ADMINISTRADOR.png](https://i.postimg.cc/N0VzbXzW/INICIO-DE-SESION-ADMINISTRADOR.png)](https://postimg.cc/2qQGS1mw)
+##  PAGINA PRINCIPAL
+[![INTERFAZ-PRINCIPAL.png](https://i.postimg.cc/V6qWMbQ9/INTERFAZ-PRINCIPAL.png)](https://postimg.cc/jwjfY2jC)
+
