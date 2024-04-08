@@ -21,6 +21,8 @@
 
 # DESCRIPCIÓN DEL PROBLEMA
 
+[![limpieza.png](https://i.postimg.cc/Hxs2Ck7T/limpieza.png)](https://postimg.cc/gwQRVdD7)
+
 LA EMPRESA **SERVIASEOS DEL PERÚ** ES LA ENCARGADA DE REALIZAR EL PROCESO DE RECOLECCIÓN Y LIMPIEZA DE ZONAS DE LA CIUDAD DE AREQUIPA DONDE ACTUALMENTE SE LLEVA ESE PROCESO DE FORMA MANUAL. CADA OPERARIO PASA DIARIAMENTE A LAS OFICINAS DE LA EMPRESA DONDE REALIZA UN PROCESO DE REGISTRO Y SE LE ASIGNA SU LABOR Y ZONA DIARIA LA CUAL DEBE CUMPLIR, PASANDO AL FINAL DE LA JORNADA A LA EMPRESA A DETALLAR SU LABOR REALIZADA Y FINALIZAR SU LABOR DIARIA. ESTE PROCESO A VECES PUEDE SER TEDIOSO YA QUE EL OPRARIO DE ASEO DEBE CONTAR CON DISPONIBILIDAD DE PLANILLAS COMO AL IGUAL DEBE DESPLAZARSE A LAS INSTALACIONES DE LA EMPRESA A ENTREGAR EL MATERIAL DE ASEO ASIGNADO. LA EMPRESA CADA X TIEMPO SACA REPORTES EN BASE A LA INFORMACIÓN SUMINISTRADA POR LOS OPERARIOS EN LOS REGISTRO Y ESTOS REPORTES SON PASADOS A UN EXCEL PARA ENTREGA A GERENCIA.
 
 # ALTERNATIVA SOLUCIÓN
@@ -43,8 +45,7 @@ DESARROLLAR UN SISTEMA PARA LA GESTIÓN DE PROCESOS Y TAREAS DE RECOLECCIÓN DE 
 
 Descripción o detalles de los casos de uso.
 
-[![imagendiagramacasosdeuso.png](https://i.postimg.cc/1RKdN9Yj/imagendiagramacasosdeuso.png)](https://postimg.cc/YjhR5w76)
-
+[![diagrama-de-caso-de-uso.png](https://i.postimg.cc/156YB4Gd/diagrama-de-caso-de-uso.png)](https://postimg.cc/yk1PY1rh)
 # Arquitectura del Sistema
 
 ## Cliente – Servidor
@@ -65,28 +66,31 @@ Descripción del patrón MVC y cómo se aplica en tu proyecto.
 | Requisito Funcional | Actor / Rol |
 |---------------------|-------------|
 | El sistema debe permitir autenticación de usuario | Administrador (Sistema web), Operadores (App) |
-| El sistema debe permitir asignar zonas de labor diaria | Administrador |
+| El sistema debe permitir registrar zonas | Administrador |
+| El sistema debe permitir asignar zonas de labor diaria | - |
 | El sistema debe permitir conocer las actividades realizadas por el personal de aseo | Administrador |
 | El sistema debe permitir gestionar usuarios | Administrador |
 | El sistema debe permitir la generación de reporte de labor ya sea diaria, semanal, mensual, anual o por periodos específicos | Administrador |
 | El sistema debe permitir llevar un registro gráfico de las zonas de acción antes y después de la labor del personal de aseo zona asignada | Administrador (Sistema web), Operadores (App) |
 | El sistema debe permitir dar de alta nuevas zonas de acción para el personal de aseo | Administrador (Sistema web) |
 | El sistema debe permitir la gestión de alertas y estados zonas | Administrador (Sistema web), Operadores (App) |
-| El sistema debe permitir categorizar y cuantificar los tipos de residuos que acopian el personal de aseo en las zonas de acción asignadas diariamente. (por ejemplo # de bolsas) | Administrador (Sistema web), Operadores (App) |
+| El sistema debe permitir la gestión de estado para conocer el proceso en que se encuentra la labor (Activa, Finalizada o Cancelada) | Administrador (Sistema web) |
+| El sistema podrá permitir asignar varias personas a una zona con distinta labor asignada | - | 
 
 ## REQUISITOS NO FUNCIONALES
-| Requisito No Funcional | Tipo |
-|------------------------|------|
-| El aplicativo debe tener una interfaz de usuario simple que permita una fácil comprensión por el personal de aseo | USABILIDAD |
-| El sistema administrativo debe tener una interfaz de usuario responsivo y se vea bien en los navegadores | USABILIDAD |
-| El sistema debe tener una opción de ayuda | USABILIDAD |
-| El sistema debe tener opciones de retroalimentación al usuario después de cada acción que realice con mensaje, imágenes, opciones de espera o cargando entre muchas más opciones | USABILIDAD |
-| El sistema debe tener en cada pantalla colores no tan fuertes y logos de la empresa | USABILIDAD |
-| El sistema debe permitir que ningún recurso pueda ser accedido por usuarios no autorizados | CONFIABILIDAD |
-| El sistema debe permitir guardar el reporte si no se tiene internet en campo | RENDIMIENTO |
-| El sistema debe manejar mapas para el administrador para ver las respectivas zonas de acción | USABILIDAD |
-| El sistema debe permitir que se envíen múltiples reportes diarios por usuario | RENDIMIENTO |
-| El sistema debe permitir la recuperación de acceso | USABILIDAD |
+| Requerimiento No Funcional | Tipo |
+|---------------------------|------|
+| El aplicativo debe tener una interfaz de usuario simple que permita una fácil comprensión por el personal de aseo | Usabilidad |
+| El sistema administrativo debe tener una interfaz de usuario responsivo y se vea bien en los navegadores | Usabilidad |
+| El sistema debe tener una opción de ayuda | Usabilidad |
+| El sistema debe tener opciones de retroalimentación al usuario después de cada acción que realice con mensaje, imágenes, opciones de espera o cargando entre muchas más opciones | Usabilidad |
+| El sistema debe tener en cada pantalla colores no tan fuertes y logos de la empresa | Usabilidad |
+| El sistema debe permitir que ningún recurso pueda ser accedido por usuarios no autorizados | Usabilidad |
+| El sistema debe permitir guardar el reporte si no se tiene internet en campo | Confiabilidad |
+| El sistema debe manejar mapas para el administrador para ver las respectivas zonas de acción | Rendimiento |
+| El sistema debe permitir generar múltiples reportes | Usabilidad |
+| El sistema debe permitir la recuperación de acceso | Rendimiento |
+
 
 ## Modelo Entidad Relación
 [![modelo-entidad-relaci-n.png](https://i.postimg.cc/T1c1JVQB/modelo-entidad-relaci-n.png)](https://postimg.cc/K3RmZg65)
