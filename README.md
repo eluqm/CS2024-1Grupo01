@@ -125,6 +125,9 @@ Formulario para registrar nuevas zonas de acción.
 Lista de zonas existentes con opciones para editar o eliminar.
 Interfaz para asignar zonas de labor diaria a los operarios.
 Posibilidad de asignar múltiples personas a una misma zona con distintas tareas
+# MOCKUPS (OPERARIO)
+## INICIO DE SESIÓN
+[![INICIO-DE-SESION-ADMINISTRADOR.png](https://i.postimg.cc/N0VzbXzW/INICIO-DE-SESION-ADMINISTRADOR.png)](https://postimg.cc/2qQGS1mw)
 
 ## Reportes Operarios(operarios)
 
