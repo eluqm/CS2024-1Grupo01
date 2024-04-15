@@ -43,9 +43,9 @@ DESARROLLAR UN SISTEMA PARA LA GESTIÓN DE PROCESOS Y TAREAS DE RECOLECCIÓN DE 
 
 # Diagrama de Casos de Uso
 
-Descripción o detalles de los casos de uso.
+[![caso-de-uso.png](https://i.postimg.cc/Hk7h3kS6/caso-de-uso.png)](https://postimg.cc/xXn51nVm)
 
-[![diagrama-de-caso-de-uso.png](https://i.postimg.cc/156YB4Gd/diagrama-de-caso-de-uso.png)](https://postimg.cc/yk1PY1rh)
+
 # Arquitectura del Sistema
 
 ## Cliente – Servidor
@@ -99,6 +99,37 @@ Descripción del patrón MVC y cómo se aplica en tu proyecto.
 # MOCKUPS (ADMINISTRADOR)
 ## INICIO DE SESIÓN
 [![INICIO-DE-SESION-ADMINISTRADOR.png](https://i.postimg.cc/N0VzbXzW/INICIO-DE-SESION-ADMINISTRADOR.png)](https://postimg.cc/2qQGS1mw)
+
+Formulario de inicio de sesión para administradores y operarios.
+Botón de "Olvidé mi contraseña" para la recuperación de acceso.
+
 ##  PAGINA PRINCIPAL
 [![INTERFAZ-PRINCIPAL.png](https://i.postimg.cc/V6qWMbQ9/INTERFAZ-PRINCIPAL.png)](https://postimg.cc/jwjfY2jC)
+
+Vista con opciones para gestionar operarios, zonas de acción, asignación, planificación, reporte y configuración.
+
+## Las zonas establecidas (Administrador)
+
+[![IMG-20240415-WA0009.jpg](https://i.postimg.cc/GtWkpdkp/IMG-20240415-WA0009.jpg)](https://postimg.cc/fSv324q4)
+
+Las zonas estarán establecidas por medio de polígonos en un mapa 
+
+## Panel de Operarios para el administrador
+
+[![IMG-20240415-WA0007.jpg](https://i.postimg.cc/3wtb9fMZ/IMG-20240415-WA0007.jpg)](https://postimg.cc/qtCLvLvt)
+## Gestión de Zonas
+
+[![IMG-20240415-WA0008.jpg](https://i.postimg.cc/tT7vcdpG/IMG-20240415-WA0008.jpg)](https://postimg.cc/bDcRDtZm)
+
+Formulario para registrar nuevas zonas de acción.
+Lista de zonas existentes con opciones para editar o eliminar.
+Interfaz para asignar zonas de labor diaria a los operarios.
+Posibilidad de asignar múltiples personas a una misma zona con distintas tareas
+
+## Reportes Operarios(operarios)
+
+[![IMG-20240415-WA0006.jpg](https://i.postimg.cc/3xBLJfwH/IMG-20240415-WA0006.jpg)](https://postimg.cc/hXX82rxC)
+
+
+
 
