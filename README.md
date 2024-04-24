@@ -63,33 +63,37 @@ Nota: no se usara framework sino que se hará un desarrollo basado en arquitectu
 Descripción del patrón MVC y cómo se aplica en tu proyecto.
 ## REQUISITOS FUNCIONALES
 
-| Requisito Funcional | Actor / Rol |
-|---------------------|-------------|
-| El sistema debe permitir autenticación de usuario | Administrador (Sistema web), Operadores (App) |
-| El sistema debe permitir registrar zonas | Administrador |
-| El sistema debe permitir asignar zonas de labor diaria | - |
-| El sistema debe permitir conocer las actividades realizadas por el personal de aseo | Administrador |
-| El sistema debe permitir gestionar usuarios | Administrador |
-| El sistema debe permitir la generación de reporte de labor ya sea diaria, semanal, mensual, anual o por periodos específicos | Administrador |
-| El sistema debe permitir llevar un registro gráfico de las zonas de acción antes y después de la labor del personal de aseo zona asignada | Administrador (Sistema web), Operadores (App) |
-| El sistema debe permitir dar de alta nuevas zonas de acción para el personal de aseo | Administrador (Sistema web) |
-| El sistema debe permitir la gestión de alertas y estados zonas | Administrador (Sistema web), Operadores (App) |
-| El sistema debe permitir la gestión de estado para conocer el proceso en que se encuentra la labor (Activa, Finalizada o Cancelada) | Administrador (Sistema web) |
-| El sistema podrá permitir asignar varias personas a una zona con distinta labor asignada | - | 
+| Requisito Funcional                                    | Actor / Rol                       | Descripción Detallada                                                                                                                                                   |
+|---------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Autenticación segura de usuarios                        | Administrador, Operadores         | El sistema debe implementar autenticación con encriptación de contraseñas y soportar verificación en dos pasos.                                                         |
+| Registro y gestión de zonas                             | Administrador                     | Permitir al administrador registrar, modificar, y eliminar zonas de acción, con validación de datos para evitar errores de entrada.                                     |
+| Asignación de zonas de labor diaria                     | Administrador                     | Facilitar la asignación de zonas a operarios diariamente con una interfaz que permita seleccionar múltiples zonas y operarios simultáneamente.                          |
+| Monitoreo de actividades de aseo                        | Administrador                     | Permitir al administrador visualizar en tiempo real las actividades realizadas por los operarios, incluyendo inicio y fin de tareas, con opciones de filtrado por fecha y zona. |
+| Gestión integral de usuarios                            | Administrador                     | Administrar usuarios incluyendo la creación, edición, y desactivación de cuentas de operadores y otros administradores, con controles de acceso según el rol.            |
+| Generación y exportación de reportes                    | Administrador                     | Generar reportes de labor en formatos PDF y Excel, permitiendo personalización por periodos específicos y tipos de actividades.                                        |
+| Registro gráfico de zonas antes y después de la limpieza| Administrador, Operadores         | Capturar y almacenar imágenes de las zonas antes y después de las tareas, accesibles vía el sistema para verificación y reportes.                                       |
+| Alta de nuevas zonas de acción                          | Administrador                     | Permitir la creación de nuevas zonas de acción mediante una interfaz gráfica que incluya mapas interactivos para seleccionar precisamente las áreas.                    |
+| Gestión de alertas y estados de zonas                   | Administrador, Operadores         | Notificaciones en tiempo real sobre cambios de estado o alertas en zonas asignadas, visible en la interfaz de ambos roles.                                              |
+| Control de estados de labor (Activa, Finalizada, Cancelada) | Administrador                  | Proporcionar herramientas para cambiar y visualizar el estado de las tareas, con registro automático de cambios para auditoría.                                        |
+| Asignación flexible de personal a zonas                 | Administrador                     | Implementar una funcionalidad que permita asignar varias personas a una zona con diferentes tareas, incluyendo la gestión de horarios y roles específicos.              |
+| Revisión y aprobación de reportes por parte del administrador | Administrador                 | Incorporar un módulo de revisión donde el administrador puede aprobar o solicitar correcciones en los reportes antes de su finalización y distribución.                 |
+
 
 ## REQUISITOS NO FUNCIONALES
-| Requerimiento No Funcional | Tipo |
-|---------------------------|------|
-| El aplicativo debe tener una interfaz de usuario simple que permita una fácil comprensión por el personal de aseo | Usabilidad |
-| El sistema administrativo debe tener una interfaz de usuario responsivo y se vea bien en los navegadores | Usabilidad |
-| El sistema debe tener una opción de ayuda | Usabilidad |
+
+| Requerimiento No Funcional                                                                                      | Tipo           |
+|-----------------------------------------------------------------------------------------------------------------|----------------|
+| El aplicativo debe tener una interfaz de usuario simple que permita una fácil comprensión por el personal de aseo| Usabilidad     |
+| El sistema administrativo debe tener una interfaz de usuario responsivo y se vea bien en los navegadores        | Usabilidad     |
+| El sistema debe tener una opción de ayuda                                                                       | Usabilidad     |
 | El sistema debe tener opciones de retroalimentación al usuario después de cada acción que realice con mensaje, imágenes, opciones de espera o cargando entre muchas más opciones | Usabilidad |
-| El sistema debe tener en cada pantalla colores no tan fuertes y logos de la empresa | Usabilidad |
-| El sistema debe permitir que ningún recurso pueda ser accedido por usuarios no autorizados | Usabilidad |
-| El sistema debe permitir guardar el reporte si no se tiene internet en campo | Confiabilidad |
-| El sistema debe manejar mapas para el administrador para ver las respectivas zonas de acción | Rendimiento |
-| El sistema debe permitir generar múltiples reportes | Usabilidad |
-| El sistema debe permitir la recuperación de acceso | Rendimiento |
+| El sistema debe tener en cada pantalla colores no tan fuertes y logos de la empresa                             | Usabilidad     |
+| El sistema debe permitir que ningún recurso pueda ser accedido por usuarios no autorizados                       | Usabilidad     |
+| El sistema debe permitir guardar el reporte si no se tiene internet en campo                                    | Confiabilidad  |
+| El sistema debe manejar mapas para el administrador para ver las respectivas zonas de acción                     | Rendimiento    |
+| El sistema debe permitir generar múltiples reportes                                                             | Usabilidad     |
+| El sistema debe permitir la recuperación de acceso                                                              | Rendimiento    |
+
 
 
 ## Modelo Entidad Relación
