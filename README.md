@@ -123,13 +123,13 @@ El diagrama de entidad-relación servirá como base para el diseño de la base d
 
 La imagen muestra un diagrama de base de datos con varias entidades y sus relaciones. Es un modelo de base de datos para un sistema que podría estar relacionado con la gestión de trabajos o tareas (labores) en diferentes zonas, manejado por administradores y operadores. Aquí hay un resumen de cada entidad y su función basada en los nombres y relaciones:
 
-1. ADMINISTRADOR: Esta tabla almacena información sobre los administradores, como nombre, apellido, correo, usuario y clave. Probablemente son los encargados de gestionar las labores y operaciones dentro del sistema.
-2. LABOR: Representa las tareas o trabajos asignados. Contiene información como fecha, título, descripción y relaciones con las tablas ADMINISTRADOR y ZONA.
-3. ZONA: Define las áreas o regiones donde se realizan las labores. Incluye un identificador y un nombre para la zona.
-4. LABOR_has_ESTADO: Es una tabla de relación entre LABOR y ESTADO que probablemente se usa para rastrear el estado de cada tarea. Incluye datos como latitud y longitud (ubicación de la tarea), una foto, fecha y una descripción adicional.
-5. OPERARIO: Esta tabla guarda información sobre los operarios o trabajadores, incluyendo identificación, nombre, apellido, foto, correo, teléfono y clave.
-6. ESTADO: Enumera los posibles estados de una tarea: No Realizada, Abierta, En Proceso, Cerrada, Cancelada, Finalizada.
-7. Las líneas discontinuas y continuas entre las entidades representan las relaciones de clave foránea entre las tablas, lo que sugiere cómo se conectan los datos en el sistema. Por ejemplo, un ADMINISTRADOR puede estar asignado a varias LABORES, y cada LABOR tiene un ESTADO que se actualiza en la tabla LABOR_has_ESTADO.
+1. **ADMINISTRADOR:** Esta tabla almacena información sobre los administradores, como nombre, apellido, correo, usuario y clave. Probablemente son los encargados de gestionar las labores y operaciones dentro del sistema.
+2. **LABOR:** Representa las tareas o trabajos asignados. Contiene información como fecha, título, descripción y relaciones con las tablas ADMINISTRADOR y ZONA.
+3. **ZONA:** Define las áreas o regiones donde se realizan las labores. Incluye un identificador y un nombre para la zona.
+4. **LABOR_has_ESTADO:** Es una tabla de relación entre LABOR y ESTADO que probablemente se usa para rastrear el estado de cada tarea. Incluye datos como latitud y longitud (ubicación de la tarea), una foto, fecha y una descripción adicional.
+5. **OPERARIO:** Esta tabla guarda información sobre los operarios o trabajadores, incluyendo identificación, nombre, apellido, foto, correo, teléfono y clave.
+6. **ESTADO:** Enumera los posibles estados de una tarea: No Realizada, Abierta, En Proceso, Cerrada, Cancelada, Finalizada.
+ Las líneas discontinuas y continuas entre las entidades representan las relaciones de clave foránea entre las tablas, lo que sugiere cómo se conectan los datos en el sistema. Por ejemplo, un ADMINISTRADOR puede estar asignado a varias LABORES, y cada LABOR tiene un ESTADO que se actualiza en la tabla LABOR_has_ESTADO.
 
 Este diagrama es una herramienta útil para el desarrollo de bases de datos, ya que proporciona una visualización de cómo se estructuran y relacionan los datos, algo esencial para la construcción de aplicaciones como la que estás desarrollando para la gestión de colección de residuos y procesos de limpieza.
 
