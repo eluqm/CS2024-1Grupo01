@@ -135,7 +135,9 @@ Posibilidad de asignar múltiples personas a una misma zona con distintas tareas
 
 ## Reportes Operarios(operarios)
 
-[![IMG-20240415-WA0006.jpg](https://i.postimg.cc/3xBLJfwH/IMG-20240415-WA0006.jpg)](https://postimg.cc/hXX82rxC)
+[![IMG-20240415-WA0006.jpg](https://i.postimg.cc/3xBLJfwH/IMG-20240415-WA0006.jpg)](https://postimg.cc/hXX82rxC
+falksñdjfadslñkfjasdlñfkasjdflñakdsjf
+
 
 
 
