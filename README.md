@@ -97,6 +97,28 @@ Descripción del patrón MVC y cómo se aplica en tu proyecto.
 
 
 ## Modelo Entidad Relación
+Para realizar mi modelo entidad relación se tiene que tomar en consideracion todos los requisitos funcionales a continución detallare todas la relaciones para la creacion de mi modelo entidad relación.
+
+1. **Autenticación segura de usuarios:** Esto implicaría que las tablas ADMINISTRADOR y OPERARIO deberían almacenar las contraseñas de forma encriptada y podrían requerir campos adicionales para la autenticación de dos factores.
+2. **Registro y gestión de zonas:** La tabla ZONA es directamente responsable de este requisito, permitiendo la creación, actualización y eliminación de zonas.
+3. **Asignación de zonas de labor diaria:** La relación entre LABOR y ZONA indica dónde y cuándo se llevan a cabo las tareas, cumpliendo con este requisito.
+4. **Monitoreo de actividades de aseo:** El sistema necesitará utilizar las tablas LABOR, LABOR_has_ESTADO, y OPERARIO para rastrear y visualizar las actividades de limpieza.
+5. **Gestión integral de usuarios:** Esto se relaciona con las tablas ADMINISTRADOR y OPERARIO, que contienen los datos de los usuarios que el sistema debe ser capaz de gestionar.
+6. **Generación y exportación de reportes:** Se requiere la integración de datos de múltiples tablas, como LABOR, LABOR_has_ESTADO, y ZONA, para producir reportes detallados.
+7. **Registro gráfico de zonas antes y después de la limpieza:** La tabla LABOR_has_ESTADO contiene un campo FOTO, que probablemente se utiliza para almacenar imágenes relacionadas con las labores.
+8. **Alta de nuevas zonas de acción:** Nuevamente, la tabla ZONA sería clave aquí, especialmente si se agregan características geográficas interactivas.
+9. **Gestión de alertas y estados de zonas:** La tabla LABOR_has_ESTADO y ESTADO jugarían un papel central en la gestión y notificación de cambios de estado.
+10. **Control de estados de labor (Activa, Finalizada, Cancelada):** La tabla ESTADO y la relación LABOR_has_ESTADO permiten el control y visualización del estado actual de las tareas.
+11. **Asignación flexible de personal a zonas:** Esto implicaría una funcionalidad que maneje las relaciones entre OPERARIO, LABOR y ZONA, permitiendo múltiples asignaciones y horarios.
+12. **Revisión y aprobación de reportes por parte del administrador:** Aunque no hay una tabla específica en el diagrama para la revisión de reportes, los datos necesarios para generar los reportes provendrán de las tablas LABOR, LABOR_has_ESTADO, y ZONA.
+El diagrama de entidad-relación servirá como base para el diseño de la base de datos que respaldará estas funciones. La lógica de negocio y la interfaz de usuario del sistema, que no se muestran en el diagrama, serán las que interactúen con esta estructura de datos para implementar los requisitos funcionales de manera efectiva.
+
+
+
+
+
+
+
 [![MODELO.png](https://i.postimg.cc/xCLsvhpV/MODELO.png)](https://postimg.cc/7GYMDsyK)
 
 La imagen muestra un diagrama de base de datos con varias entidades y sus relaciones. Es un modelo de base de datos para un sistema que podría estar relacionado con la gestión de trabajos o tareas (labores) en diferentes zonas, manejado por administradores y operadores. Aquí hay un resumen de cada entidad y su función basada en los nombres y relaciones:
