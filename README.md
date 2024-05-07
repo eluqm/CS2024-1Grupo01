@@ -134,42 +134,118 @@ La imagen muestra un diagrama de base de datos con varias entidades y sus relaci
 Este diagrama es una herramienta útil para el desarrollo de bases de datos, ya que proporciona una visualización de cómo se estructuran y relacionan los datos, algo esencial para la construcción de aplicaciones como la que estás desarrollando para la gestión de colección de residuos y procesos de limpieza.
 
 
-# MOCKUPS (ADMINISTRADOR)
-## INICIO DE SESIÓN
-[![INICIO-DE-SESION-ADMINISTRADOR.png](https://i.postimg.cc/N0VzbXzW/INICIO-DE-SESION-ADMINISTRADOR.png)](https://postimg.cc/2qQGS1mw)
+# MOCKUPS PAGINA WEB (ADMINISTRADOR)
+**1.-PANTALLA DE INICIO DE SESIÓN:**
+[![IMAGEN1.png](https://i.postimg.cc/2855XSgr/IMAGEN1.png)](https://postimg.cc/c6VZv0sb)
 
-Formulario de inicio de sesión para administradores y operarios.
-Botón de "Olvidé mi contraseña" para la recuperación de acceso.
+Esta imagen muestra la página de inicio de sesión donde los usuarios pueden ingresar su nombre de usuario y contraseña. También incluye opciones para recordar al usuario y recuperar una contraseña olvidada.
 
-##  PAGINA PRINCIPAL
-[![INTERFAZ-PRINCIPAL.png](https://i.postimg.cc/V6qWMbQ9/INTERFAZ-PRINCIPAL.png)](https://postimg.cc/jwjfY2jC)
+**2.-DASHBOARD PRINCIPAL:**
+[![IMAGEN2.png](https://i.postimg.cc/mgv2DNkg/IMAGEN2.png)](https://postimg.cc/mPSGp97v)
 
-Vista con opciones para gestionar operarios, zonas de acción, asignación, planificación, reporte y configuración.
+Esta pantalla es un panel de control que muestra información clave como la cantidad de asignaciones, zonas, operadores disponibles, y tareas pendientes. También muestra un gráfico de ejecución de tareas y un mapa con ubicaciones de asignaciones, lo que sugiere una funcionalidad para rastrear la ubicación de las tareas en tiempo real.
 
-## Las zonas establecidas (Administrador)
+**3.-MODAL DE CERRAR SESIÓN:**
+[![IMAGEN3.png](https://i.postimg.cc/KvZSDztj/IMAGEN3.png)](https://postimg.cc/fkgrwM2Q)
 
-[![IMG-20240415-WA0009.jpg](https://i.postimg.cc/GtWkpdkp/IMG-20240415-WA0009.jpg)](https://postimg.cc/fSv324q4)
+Esta es una ventana emergente de confirmación para cerrar sesión. Le pregunta al usuario si realmente desea salir de la sesión actual.
 
-Las zonas estarán establecidas por medio de polígonos en un mapa 
+**4.-GESTIÓN DE OPERADORES:**
+[![IMAGEN4.png](https://i.postimg.cc/8z52x0KV/IMAGEN4.png)](https://postimg.cc/bs7Vt3f6)
+Esta pantalla lista a los operadores activos de la empresa con detalles como ID, nombre, apellido, y opciones para editar o eliminar operadores. También tiene un botón para agregar nuevos operadores.
 
-## Panel de Operarios para el administrador
+**5.-FORMULARIO PARA AGREGAR OPERADOR:**
+[![IMAGEN5-AGREGAR-OPERARIO.png](https://i.postimg.cc/pTN3hX22/IMAGEN5-AGREGAR-OPERARIO.png)](https://postimg.cc/94pLs2RS)
 
-[![IMG-20240415-WA0007.jpg](https://i.postimg.cc/3wtb9fMZ/IMG-20240415-WA0007.jpg)](https://postimg.cc/qtCLvLvt)
-## Gestión de Zonas
+Esta pantalla es un formulario para ingresar nuevos operadores. Solicita información como identificación, nombre, apellido, correo electrónico, teléfono, estado del operador, nombre de usuario y contraseña.
 
-[![IMG-20240415-WA0008.jpg](https://i.postimg.cc/tT7vcdpG/IMG-20240415-WA0008.jpg)](https://postimg.cc/bDcRDtZm)
+**6.-FORMULARIO PARA EDITAR OPERARIO:**
+[![IMAGEN6-EDITAR-OPERARIO.png](https://i.postimg.cc/WzCxn8QD/IMAGEN6-EDITAR-OPERARIO.png)](https://postimg.cc/SYLZQ6Qq)
 
-Formulario para registrar nuevas zonas de acción.
-Lista de zonas existentes con opciones para editar o eliminar.
-Interfaz para asignar zonas de labor diaria a los operarios.
-Posibilidad de asignar múltiples personas a una misma zona con distintas tareas
-# MOCKUPS (OPERARIO)
-## INICIO DE SESIÓN
-[![INICIO-DE-SESION-ADMINISTRADOR.png](https://i.postimg.cc/N0VzbXzW/INICIO-DE-SESION-ADMINISTRADOR.png)](https://postimg.cc/2qQGS1mw)
+Similar al formulario para agregar un nuevo operador, esta interfaz permite editar los detalles existentes de un operador. Incluye campos para identificación, nombre, apellido, correo electrónico, teléfono, estado y detalles de usuario.
 
-## Reportes Operarios(operarios)
+**7.-LISTADO DE ZONAS:**
+[![IMAGEN7.png](https://i.postimg.cc/Mpkhfs7N/IMAGEN7.png)](https://postimg.cc/6y0HDf1f)
 
-[![IMG-20240415-WA0006.jpg](https://i.postimg.cc/3xBLJfwH/IMG-20240415-WA0006.jpg)](https://postimg.cc/hXX82rxC)
+Muestra un listado de zonas designadas para la limpieza. Aunque en la imagen no hay zonas listadas, se proporciona un botón para agregar nuevas zonas.
+
+**8.-FORMULARIO PARA AGREGAR ZONA:**
+
+[![IMAGEN8-AGREGAR-ZONA.png](https://i.postimg.cc/k5sZZq0P/IMAGEN8-AGREGAR-ZONA.png)](https://postimg.cc/DWWB4kfx)
+
+Permite la creación de una nueva zona especificando el nombre y las coordenadas de latitud y longitud. Este formulario es vital para organizar las operaciones por áreas geográficas específicas.
+
+**9.-FORMULARIO PARA EDITAR ZONA:**
+
+[![IMAGEN9-EDITAR-ZONA.png](https://i.postimg.cc/0jMBbmb9/IMAGEN9-EDITAR-ZONA.png)](https://postimg.cc/n9xkWX4W)
+
+Esta interfaz permite editar la información de una zona existente. Los campos son similares al formulario de agregar zona, incluyendo nombre, latitud, longitud y estado.
+
+**10.-VISTA DE ASIGNACIONES:**
+
+[![IMAGEN10.png](https://i.postimg.cc/nVNHTGKY/IMAGEN10.png)](https://postimg.cc/YjfKCgsh)
+
+Proporciona un resumen de las tareas asignadas, mostrando detalles como fecha, título, descripción, estado de la tarea y el operario asignado. Ofrece también opciones para editar la asignación.
+
+**11.-FORMULARIO PARA AGREGAR ASIGNACIÓN:**
+
+[![IMAGEN-11-AGREGAR-ASIGNACION.png](https://i.postimg.cc/4xQsfCDB/IMAGEN-11-AGREGAR-ASIGNACION.png)](https://postimg.cc/gxjfs7kZ)
+
+Permite la creación de nuevas tareas asignando detalles como fecha, título, descripción, operario, zona y estado.
+
+**12.-FORMULARIO PARA EDITAR ASIGNACIÓN:**
+[![IMAGEN12-EDITAR-ASIGNACION.png](https://i.postimg.cc/fLph2MdT/IMAGEN12-EDITAR-ASIGNACION.png)](https://postimg.cc/Q9QPVGSR)
+
+ Permite modificar los detalles de una tarea ya asignada, incluyendo fecha, título, descripción, operario, zona y estado. También ofrece la capacidad de actualizar esos datos.
+
+**13.-REPORTE DE ACTIVIDAD CON EVIDENCIA:**
+[![IMAGEN13-REPORTE-DE-ACTIVIDAD.png](https://i.postimg.cc/cC3GPP77/IMAGEN13-REPORTE-DE-ACTIVIDAD.png)](https://postimg.cc/H8TNyZhj)
+
+ En esta interfaz, además de la edición de una asignación, se permite añadir evidencia fotográfica y observaciones de las tareas realizadas por el operario, lo que es crucial para la verificación y el seguimiento de las tareas completadas.
+
+**14.-HOSTORIAL DE TAREAS:**
+
+[![IMAGEN14.png](https://i.postimg.cc/jjj0RDQS/IMAGEN14.png)](https://postimg.cc/DSRYgyM9)
+
+Muestra un registro histórico de todas las asignaciones y actividades completadas o en proceso dentro de la empresa, con filtros por fecha, título, descripción, y operario.
+
+**15.-GRAFICOS DE REPORTES:**
+
+[![IMAGEN15.png](https://i.postimg.cc/V6Sxb2hy/IMAGEN15.png)](https://postimg.cc/ZBS7GsZj)
+
+**Porcentaje de Cumplimiento:** Muestra un gráfico de líneas que representa el porcentaje de cumplimiento de las tareas o servicios a lo largo del tiempo, lo cual es útil para monitorear la eficacia y la consistencia de los servicios proporcionados.
+
+**Procesos:** Un gráfico circular que desglosa el estado actual de todas las tareas (abiertas, no realizadas, en proceso, canceladas y finalizadas). Este tipo de visualización ayuda a entender rápidamente la distribución del trabajo y los posibles cuellos de botella o áreas de mejora.
+
+
+**16.-GESTIÓN DE ADMINISTRADORES:**
+
+[![IMAGEN16.png](https://i.postimg.cc/C5TQn5DD/IMAGEN16.png)](https://postimg.cc/R6dRjMgV)
+
+**Lista de Administradores:** Muestra una tabla con la lista de administradores, incluyendo su ID, nombre, apellido, correo electrónico, nombre de usuario, estado actual, y acciones disponibles como editar o eliminar. Esto facilita la gestión de acceso y control sobre quién puede modificar aspectos críticos de la aplicación.
+
+**17.-FORMULARIO DE ADMINITSRADORES (AGREGAR)**
+
+[![IMAGEN17-AGREGAR-ADMINISTRADOR.png](https://i.postimg.cc/cJv9DwBw/IMAGEN17-AGREGAR-ADMINISTRADOR.png)](https://postimg.cc/WDPwzDK1)
+
+Agregar Nuevo Administrador: Un formulario para ingresar los datos de un nuevo administrador, incluyendo nombre, apellido, correo electrónico, nombre de usuario, contraseña y estado. Esto permite una fácil incorporación de nuevos administradores al sistema.
+
+**18.-EDITAR ADMINISTRADOR**
+
+[![IMAGEN18-EDITAR-ADMINISTRADOR.png](https://i.postimg.cc/CK9v95ct/IMAGEN18-EDITAR-ADMINISTRADOR.png)](https://postimg.cc/3yCCv85C)
+
+Similar al formulario de agregar, pero para actualizar los datos de un administrador existente. Este nivel de control es esencial para mantener la seguridad y la actualización de la información de los usuarios con roles administrativos.
+
+**19.-CONFIGURACIÓN DEL PERFIL:**
+
+[![IMAGEN19.png](https://i.postimg.cc/C5hK0h1C/IMAGEN19.png)](https://postimg.cc/Q9zDkrcV)
+
+**Configuración del Perfil:** Una interfaz que permite a los usuarios cambiar su propia información de usuario o eliminar su cuenta. Esto es parte de las prácticas estándar de gestión de cuentas, ofreciendo a los usuarios control sobre su propia información y la opción de retirarse del sistema si así lo desean.
+
+
+
+
+
 
 
 
