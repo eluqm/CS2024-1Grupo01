@@ -243,9 +243,41 @@ Similar al formulario de agregar, pero para actualizar los datos de un administr
 **Configuración del Perfil:** Una interfaz que permite a los usuarios cambiar su propia información de usuario o eliminar su cuenta. Esto es parte de las prácticas estándar de gestión de cuentas, ofreciendo a los usuarios control sobre su propia información y la opción de retirarse del sistema si así lo desean.
 
 
+# MOCKUPS DE APP MOVIL (OPERADOR)
+
+**1.-LOGOTIPO Y DISEÑO DE PAGINA DE INICIO**
 
 
+[![Sin-t-tulo.png](https://i.postimg.cc/C1Lk4bMJ/Sin-t-tulo.png)](https://postimg.cc/GBV4L8ys)  
 
+[![IMAGEN2.png](https://i.postimg.cc/R0qtKTL5/IMAGEN2.png)](https://postimg.cc/3y5WHmqn)
+
+ Muestran el logotipo de LIMPERU SAC y el diseño de la página de inicio, tanto en versión de diseño como en su posible representación final. Esto incluye áreas de "ImageView", probablemente destinadas a mostrar gráficos o imágenes representativas.
+
+
+**2.-INTERFACES DE USUARIO PARA EL INICIO DE SESIÓN:**
+
+[![IMAGEN3.png](https://i.postimg.cc/FzXJtX5N/IMAGEN3.png)](https://postimg.cc/cgTJYjLb)
+
+Dos variantes de diseño para la página de inicio de sesión, una más detallada y otra más esquemática, que proporcionan campos para ingresar el usuario y la contraseña, con un botón para iniciar sesión.
+
+**3.-REGISTROS DE ACTIVIDADES DIARIAS:**
+
+[![IMAGEN4.png](https://i.postimg.cc/fRqtz9nH/IMAGEN4.png)](https://postimg.cc/BjDQNtvD)
+
+ Mockups que muestran el registro de actividades por fechas específicas, describiendo cada actividad realizada o en proceso, lo que permite un seguimiento detallado del progreso y cumplimiento de las tareas asignadas.
+
+ **4.-FORMULARIO PARA REPORTES DE OPERARIO:**
+ 
+[![IMAGEN5-ACTIVIDAD-NO-REALIZADA.png](https://i.postimg.cc/prvyGQzd/IMAGEN5-ACTIVIDAD-NO-REALIZADA.png)](https://postimg.cc/vgPQDVPR)
+
+ Se muestra el diseño de formularios para que los operarios ingresen detalles de las actividades realizadas, incluyendo títulos, descripciones, reportes, y evidencias fotográficas, lo que es esencial para la validación y documentación de las tareas completadas.
+
+ **5.-OBSERVACIONES DE ACTIVIDADES:**
+
+[![IMAGEN6-OBSERVACION-ACTIVIDAD-DADA-POR-ADMINISTRADOR.png](https://i.postimg.cc/3JnW1vRK/IMAGEN6-OBSERVACION-ACTIVIDAD-DADA-POR-ADMINISTRADOR.png)](https://postimg.cc/qz6kMgyY)
+
+Pantallas que permiten ingresar observaciones adicionales para actividades que no se realizaron completamente, solicitando específicamente evidencias adicionales, lo que sugiere un enfoque en la calidad y exhaustividad del trabajo realizado.
 
 
 
