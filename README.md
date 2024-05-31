@@ -118,8 +118,7 @@ El diagrama de entidad-relación servirá como base para el diseño de la base d
 
 
 
-
-[![MODELO.png](https://i.postimg.cc/xCLsvhpV/MODELO.png)](https://postimg.cc/7GYMDsyK)
+[![Untitled.png](https://i.postimg.cc/c1TjK0fs/Untitled.png)](https://postimg.cc/Rq6GyrP8)
 
 La imagen muestra un diagrama de base de datos con varias entidades y sus relaciones. Es un modelo de base de datos para un sistema que podría estar relacionado con la gestión de trabajos o tareas (labores) en diferentes zonas, manejado por administradores y operadores. Aquí hay un resumen de cada entidad y su función basada en los nombres y relaciones:
 
