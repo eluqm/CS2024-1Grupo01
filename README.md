@@ -242,6 +242,12 @@ Similar al formulario de agregar, pero para actualizar los datos de un administr
 **Configuración del Perfil:** Una interfaz que permite a los usuarios cambiar su propia información de usuario o eliminar su cuenta. Esto es parte de las prácticas estándar de gestión de cuentas, ofreciendo a los usuarios control sobre su propia información y la opción de retirarse del sistema si así lo desean.
 
 
+**20.-FUNCIONALIDAD ESTADO:**
+
+[![Captura-de-pantalla-2024-05-31-080618.png](https://i.postimg.cc/fL0M5kZQ/Captura-de-pantalla-2024-05-31-080618.png)](https://postimg.cc/ftD4RzJ8)
+
+**Funcionalidad de estado:** Esta interfaz permitira actualizar elimniar acctualizar y crear los estados del operario. 
+
 # MOCKUPS DE APP MOVIL (OPERADOR)
 
 **1.-LOGOTIPO Y DISEÑO DE PAGINA DE INICIO**
